@@ -12,6 +12,7 @@ const repositories = [];
 app.get("/repositories", (requeste, response) => {
   
   return response.json(repositories);
+  
 });
 
 app.post("/repositories", (requeste, response) => {
